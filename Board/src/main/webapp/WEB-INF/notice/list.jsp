@@ -19,9 +19,10 @@
 	<%@include file="/resources/includes/nav.jsp" %>
 	
 	<!-- MainContents -->
-	<div id=maincontents style="margin-top:15px;">
-	
-	
+	<div id=maincontents style="border: 3px solid pink; margin-top:15px;">
+		<h1> 공지사항 </h1>
+		
+		<a href="/Notice/post.do">글쓰기</a>
 	</div>	
 	<!-- Footer -->
 	</div>

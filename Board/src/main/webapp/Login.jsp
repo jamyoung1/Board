@@ -25,6 +25,7 @@
 	<div class="ontainer-md" style="width:500px;height:500px;margin:200px auto;">
 	
 	<form action="/Login.do" method="post">
+	<!-- 로그인 버튼을 누르면 /Login.do로 이동하도록 action 설정 -->
 		<div class="row m-3" id=Logo>
 			<div class="col" style="text-align: center;">
 				<i class="bi bi-person" style="font-size:7rem;"></i>			
@@ -52,7 +53,7 @@
 	<!-- 
 		노출되는 페이지
 		회원가입을 클릭하면 /MemberJoin.do 로 연결 되도록 설정해서 회원가입 창으로 넘어갈 수 있도록 한다.
-	
+	    
 	 -->
 </body>
 </html>
